@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+body {
+  font-family: "inter";
+  margin: auto;
+}
+
+div {
+  margin: 42px 29px 51px 37px;
+  max-width: 934px;
+  height: 1670px;
+}
+
+p {
+  font-size: 12px;
+}
+
+a {
+  color: #000aff;
+}
+
+ol {
+  padding-left: 22px;
+  font-size: 12px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 12px;
+}
