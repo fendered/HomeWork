@@ -1,0 +1,145 @@
+body {
+  max-width: 1400px;
+  height: 2767px;
+  font-family: "Inika", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 48px;
+  font-family: "M PLUS 1", sans-serif;
+  margin: 25px auto;
+  letter-spacing: 10px;
+}
+
+.blue {
+  color: #3e45e8;
+}
+.yellow {
+  color: #e8c23e;
+}
+
+.background_img {
+  background: url(./img/фонове\ зображення.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 230px 279px 230px 80px;
+  margin-bottom: 48px;
+}
+
+.background_text {
+  font-size: 46px;
+  color: white;
+  margin-left: 22px;
+  font-weight: 700;
+}
+
+.title_left {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-left: 80px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  height: 391px;
+  width: 100%;
+  margin-top: 42px;
+}
+
+.block {
+  border: 5px solid #0d095f;
+  width: 391px;
+  height: 481px;
+  border-radius: 10%;
+}
+
+.left {
+  box-shadow: -16px 21px 40px #00d1ff59;
+}
+
+.center {
+  box-shadow: 0px 21px 35px #00d1ff59;
+}
+
+.right {
+  box-shadow: 16px 21px 40px #00d1ff59;
+}
+
+.title_block {
+  color: #0072db;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 14px;
+}
+
+.text_block {
+  color: #ff9900;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.title_center {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 140px auto 39px auto;
+  text-align: center;
+  border-bottom: 7px solid #1400ff;
+  max-width: 592px;
+}
+
+.ukraine_map {
+  text-align: center;
+}
+
+.btn {
+  background-color: #2a61f0;
+  max-width: 500px;
+  height: 81px;
+  margin: 23px auto 42px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+.btn_text {
+  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.btn_text a {
+  text-decoration: none;
+  color: white;
+}
+
+.contacts {
+  text-align: center;
+  background-color: #0d095f;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #a89d9d;
+  font-family: "Marcellus SC", serif;
+  font-size: 36px;
+}
+
+.icons > a:not(.last) {
+  margin-right: 28px;
+}
