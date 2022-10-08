@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url(./image/фон.png);
+  height: 700px;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  text-align: center;
+  padding-top: 144px;
+  background-position: center;
+  box-sizing: border-box;
+  margin: 0px auto;
+}
+
+main {
+  max-width: 1276px;
+  margin: 40px auto;
+}
+h1 {
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+}
+
+.block {
+  height: 460px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.block__left,
+.block__center,
+.block__right {
+  background-color: #231b0c;
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 37px;
+  padding-bottom: 66px;
+}
+
+.main__bottom {
+  background-image: url(./image/фото.png);
+  height: 595px;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #150f02;
+  height: 279px;
+  padding-top: 39px;
+  padding-bottom: 60px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.footer__top {
+  max-width: 600px;
+  height: 75px;
+  margin: 0 auto;
+}
+
+.contacts__title {
+  border-bottom: 10px solid #ff6b00;
+}
