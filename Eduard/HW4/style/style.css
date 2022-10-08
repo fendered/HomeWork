@@ -75,11 +75,12 @@ footer {
   justify-content: space-between;
 }
 
-.footer__left, .footer__right {
+.footer__left,
+.footer__right {
   display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .contacts {
@@ -93,7 +94,7 @@ align-items: flex-start;
 .contacts__title {
   border-bottom: 10px solid #ff6b00;
   width: 360px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   letter-spacing: 6px;
   font-size: 20px;
   height: 33px;
@@ -101,8 +102,8 @@ align-items: flex-start;
 
 .social_media {
   display: flex;
-    width: 150px;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
+  width: 150px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
 }
