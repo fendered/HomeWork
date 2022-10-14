@@ -80,10 +80,25 @@ main {
   align-items: center;
   justify-content: flex-start;
   box-sizing: border-box;
+  position: relative;
+}
+
+.main__content:hover {
+  box-shadow: 0 0 60px 4px #2cbdeb;
+}
+
+.main__content:hover .star path {
+  fill: #fff500;
 }
 
 .main__content > .right_block {
   margin-left: 30px;
+}
+
+.main__content > .right_block > .content_title {
+  font-weight: 700;
+  font-size: 36px;
+  font-style: italic;
 }
 
 .main__content > .right_block > .content_text {
@@ -92,4 +107,35 @@ main {
   background-color: #edfbff;
   padding: 10px 118px 83px 16px;
   box-sizing: border-box;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.star {
+  position: absolute;
+  top: 3%;
+  right: 1%;
+}
+
+.about {
+  position: absolute;
+  top: 80%;
+  right: -2%;
+}
+
+.about > svg {
+  fill: #243b93;
+}
+
+.about > svg:hover {
+  fill: #ef075b;
+}
+
+.about__text {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  top: 82%;
+  right: 1%;
+  font-size: 24px;
 }
