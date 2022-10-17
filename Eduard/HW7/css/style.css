@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+html {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 10px;
+  /* box-sizing: border-box; */
+}
+body {
+  background: linear-gradient(112.23deg, #3e718e 0%, #64969b 100%);
+  width: 100%;
+  padding-top: 10%;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.1);
+border-radius: 4px;
+margin-bottom: 4%;
+}
+
+span {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+button {
+    width: 100%;
+    margin-top: 30%;
+    background: #27485D;
+border: 1px solid #284A5E;
+box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.1);
+border-radius: 4px;
+color: white;
+height: 34px;
+margin-bottom: 2%;
+}
+
+.login {
+    color: #C4C4C4;
+    font-size: 1.6rem;
+}
+
+.content {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 657px;
+  padding-top: 1%;
+}
+.left-side {
+  width: 50%;
+  padding-top: 2%;
+  background: #ffffff;
+}
+.heder {
+  height: 5%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  color: #ffffff;
+  opacity: 0.8;
+  font-size: 4.8rem;
+  font-weight: 700;
+  width: 100%;
+}
+
+.white {
+    color: black;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: 700;
+}
+
+.main__center {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.main__center > div:last-child {
+    font-size: 1.6rem;
+}
+
+.right-side {
+  background: linear-gradient(160.42deg, #517879 0%, #214159 100%);
+  box-shadow: 0px 0px 10px 9px #4e7577;
+  width: 50%;
+  box-sizing: border-box;
+  padding-top: 2%;
+}
+
+.header_left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  background: linear-gradient(
+    93.38deg,
+    #496f74 -3.47%,
+    #6e9195 35.61%,
+    #2d4f61 84.29%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10%;
+  margin-left: 4%;
+}
+
+.header_right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-right: 3%;
+}
+
+.header_right > div:last-child {
+  margin-left: 3%;
+}
+
+.form_input {
+    width: 60%;
+}
+
+.password_text {
+    font-size: 1rem;
+    font-weight: 400;
+}
