@@ -1,0 +1,8 @@
+#display {
+  width: 200px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: white;
+  background: rgba(230, 000, 144, 0.5);
+  border: 1px solid black;
+}
