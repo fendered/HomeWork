@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #days {
+        width: 200px;
+        height: 100px;
+        background-color: blue;
+        color: white;
+        font-size: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="days"></div>
+    <script>
+      debugger;
+      function getSpeedStatistic(testResults) {
+        // write code here
+        let min = testResults[0];
+        let max = testResults[0];
+        let sum = 0;
+        let average = 0;
+
+        if (testResults === []) {
+          return [0, 0, 0];
+        }
+
+        for (let i = 0; i <= testResults.length - 1; i++) {
+          sum += testResults[i];
+          if (testResults[i] >= max) {
+            max = testResults[i];
+          }
+          if (testResults[i] <= min) {
+            min = testResults[i];
+          }
+          average = Math.floor(sum / testResults.length);
+        }
+        return [min, max, average];
+      }
+      getSpeedStatistic([]);
+    </script>
+  </body>
+</html>
